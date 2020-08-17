@@ -84,7 +84,7 @@ Windows Server 管理员凭据
      -rgName 'az30308a-labRG'
    ```
 
-      > **注**：若要标识可在其中配置 Azure VM 的 Azure 区域，请参阅 [**https://azure.microsoft.com/zh-cn/regions/offers/**](https://azure.microsoft.com/en-us/regions/offers/)
+      > **注**：若要标识可在其中配置 Azure VM 的 Azure 区域，请参阅 [**https://azure.microsoft.com/zh-cn/regions/offers/**](https://azure.microsoft.com/zh-cn/regions/offers/)
 
 1. 在 Azure 门户中，关闭 **“Cloud Shell”** 窗格。
 
@@ -139,11 +139,11 @@ Windows Server 管理员凭据
 
 1. 在与 **“az30308a-hv-vm”** 的远程桌面会话中，在 “服务器管理器”窗口，单击 **“本地服务器”**，单击**IE 增强的安全配置**标签旁边的 **“开启”** 链接，并在 **“IE 增强的安全配置”** 对话框中，都选择 **“关闭”** 选项。
 
-1. 在与 **“az30308a-hv-vm”** 的远程桌面会话中，启动 Internet Explorer，浏览至 [Windows Server Evaluations](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019)，并下载 Windows Server 2019 **VHD** 文件到 **“F:\VHDs”** 文件夹（你需要先创建它）。 
+1. 在与 **“az30308a-hv-vm”** 的远程桌面会话中，启动 Internet Explorer，浏览至 [Windows Server Evaluations](https://www.microsoft.com/zh-cn/evalcenter/evaluate-windows-server-2019)，并下载 Windows Server 2019 **VHD** 文件到 **“F:\VHDs”** 文件夹（你需要先创建它）。 
 
 1. 在与 **“az30308a-hv-vm”** 的远程桌面会话中，启动 **“Hyper-V 管理器”**。 
 
-1. 在 **“Hyper-V 管理器”** 控制台中，选择 **“az30308a-hv-vm”**节点，再选择 **“新建”**，然后在级联菜单中选择 **“虚拟机”**。这将启动 **“新建虚拟机向导”**。 
+1. 在 **“Hyper-V 管理器”** 控制台中，选择 **“az30308a-hv-vm”** 节点，再选择 **“新建”**，然后在级联菜单中选择 **“虚拟机”**。这将启动 **“新建虚拟机向导”**。 
 
 1. 在 **“新建虚拟机向导”** 的 **“开始之前”** 页面上，选择 **“下一步 >”**。
 
@@ -159,7 +159,7 @@ Windows Server 管理员凭据
 
 1. 在 **“新建虚拟机向导”** 的 **“指定代数”** 页面上，确保选择了 **“第一代”** 选项，然后选择 **“下一步 >”**：
 
-1. 在 **“新建虚拟机向导”** 的 **“分配内存”** 页面上，将 **“启动内存”**设置为 **“2048”**，然后选择 **“下一步 >”**。
+1. 在 **“新建虚拟机向导”** 的 **“分配内存”** 页面上，将 **“启动内存”** 设置为 **“2048”**，然后选择 **“下一步 >”**。
 
 1. 在 **“新建虚拟机向导”** 的 **“配置网络”** 页面上， 在 **“连接”** 下拉列表中选择 **“NestedSwitch”**，然后选择 **“下一步 >”**。
 
@@ -235,7 +235,7 @@ Windows Server 管理员凭据
 
 #### 任务 2：创建 Azure Migrate 项目
 
-1. 在与 **“az30308a-hv-vm”** 的远程桌面会话中，启动 Internet Explorer，导航至“Azure 门户”[](https://portal.azure.com)，然后通过提供你将在本实验室使用的订阅中具有所有者角色的用户帐户凭据来登录。
+1. 在与 **“az30308a-hv-vm”** 的远程桌面会话中，启动 Internet Explorer，导航至[“Azure 门户”](https://portal.azure.com)，然后通过提供你将在本实验室使用的订阅中具有所有者角色的用户帐户凭据来登录。
 
 1. 在 Azure 门户中搜索并选择 **“Azure Migrate”**，在 **“Azure Migrate”** 边栏选项卡中的 **“迁移目标”** 部分选择 **“服务器”**，然后选择 **“添加工具”**。
 
@@ -341,7 +341,7 @@ Windows Server 管理员凭据
 
     >**注意**：等待下载完成。该操作需要约 5 分钟。
 
-1. 下载完成后，将下载的 .ZIP 文件的内容提取到 **“F:\VMs”**文件夹。 
+1. 下载完成后，将下载的 .ZIP 文件的内容提取到 **“F:\VMs”** 文件夹。 
 
 1. 在接入 **az30308a-hv-vm** 的远程桌面会话中，切换到 **“Hyper-V 管理器”** 控制台，选择 **“az30308a-hv-vm”** 节点，选择 **“导入虚拟机”**。这将开始执行**导入虚拟机**向导。
 
@@ -498,7 +498,7 @@ Windows Server 管理员凭据
 
 1. 在 **“发现计算机”** 边栏选项卡上，在 **“准备 Hyper-V 主机服务器”1.** 步骤中，选择第一个 **“下载”** 链接，以下载 Hyper-V 复制提供程序软件的安装程序。
 
-1. 出现提示时，启动 **AzureSiteRecoveryProvider.exe**。这将启动 **Azure Site Recovery 提供程序安装程序（Hyper-V 服务器）**向导。
+1. 出现提示时，启动 **AzureSiteRecoveryProvider.exe**。这将启动 **Azure Site Recovery 提供程序安装程序（Hyper-V 服务器）** 向导。
 
 1. 在 **“Microsoft 更新”** 页面上，选择 **“关闭”**，然后选择 **“下一步”**。
 
@@ -577,7 +577,7 @@ Windows Server 管理员凭据
 
 1. 在 **“Azure Migrate: 服务器迁移 | 复制计算机”** 边栏选项卡上，选择代表 **az30308a-vm1** 虚拟机的条目。
 
-1. 在 **az30308a-vm1**复制计算机边栏选项卡上，选择 **“清理测试迁移”*。
+1. 在 **az30308a-vm1**复制计算机边栏选项卡上，选择 **“清理测试迁移”**。
 
 1. 在 **“测试迁移清理”** 边栏选项卡上，选择复选框 **“测试完成**。**删除测试虚拟机”**，然后选择 **“清理测试”**。
 

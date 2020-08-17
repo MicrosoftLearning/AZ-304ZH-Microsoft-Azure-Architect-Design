@@ -77,7 +77,7 @@ Windows Server 管理员凭据
     ```powershell
     Test-AzDnsAvailability -DomainNameLabel <custom-label> -Location '<location>'
     ```
-      > **注**：要标识可以配置 Azure VM 的 Azure 区域，请参阅 [https://azure.microsoft.com/en-us/regions/offers/](https://azure.microsoft.com/en-us/regions/offers/)
+      > **注**：要标识可以配置 Azure VM 的 Azure 区域，请参阅 [https://azure.microsoft.com/zh-cn/regions/offers/](https://azure.microsoft.com/zh-cn/regions/offers/)
 
 1. 验证命令是否返回 **True**。如果没有，请使用不同的 `<custom-label>`  值重新运行相同的命令，直到命令返回为**True** 为止。
 
@@ -108,7 +108,7 @@ Windows Server 管理员凭据
 
 1. 在 **“使用新的 AD 林创建 Azure VM”** 边栏选项卡中，选择 **“编辑参数”**。
 
-1. 在 **“编辑参数”** 边栏选项卡中，选择 **“加载文件”**，在 **“打开”**对话框中，选择 **“\\\\AZ303\\AllFiles\Labs\\10\\azuredeploy30310rga.parameters.json”**，然后依次选择 **“打开”** 和 **“保存”**。 
+1. 在 **“编辑参数”** 边栏选项卡中，选择 **“加载文件”**，在 **“打开”** 对话框中，选择 **“\\\\AZ303\\AllFiles\Labs\\10\\azuredeploy30310rga.parameters.json”**，然后依次选择 **“打开”** 和 **“保存”**。 
 
 1. 在 **“使用新的 AD 林创建 Azure VM”** 边栏选项卡中，指定以下设置（将其他设置保留位默认值）：
 
@@ -390,7 +390,7 @@ Windows Server 管理员凭据
 
 #### 任务 1：禁用 Azure AD 安全默认值。
 
-1. 在与 **az30310a-vm1** 的远程桌面会话中，在显示 Azure 门户的 Internet Explorer 窗口中，导航到 **“Adatum 实验室” | ** Adatum 实验室 Azure AD 租户的 **概述”** 边栏选项卡。
+1. 在与 **az30310a-vm1** 的远程桌面会话中，在显示 Azure 门户的 Internet Explorer 窗口中，导航到 **“Adatum 实验室”** | Adatum 实验室 Azure AD 租户的 **概述”** 边栏选项卡。
 
 1. 在 **“Adatum 实验室 | 概述”** 边栏选项卡上，在 **“管理”** 部分，选择 **“属性”**。
 
@@ -413,7 +413,7 @@ Windows Server 管理员凭据
 
 1. 回到 **“新建”** 边栏选项卡，在 **“作业”** 部分，选择 **“云应用或操作”**，在 **“包括”** 选项卡上，选择 **“选择应用”**，单击 **“选择”**，在 **“选择”** 边栏选项卡上，选择 **“Microsoft Azure 管理”** 复选框，然后单击 **“选择”** 以确认你的选择。
 
-1. 回到 **“新建”** 边栏选项卡，在 **“访问控制”** 部分，选择 **“授权”**，在 **“授权”** 边栏选项卡上，确保选择 **“授权”** 选项，选择 **“需要多重身份验证”**，然后单击 **“选择”**以确认你的选择。
+1. 回到 **“新建”** 边栏选项卡，在 **“访问控制”** 部分，选择 **“授权”**，在 **“授权”** 边栏选项卡上，确保选择 **“授权”** 选项，选择 **“需要多重身份验证”**，然后单击 **“选择”** 以确认你的选择。
 
 1. 回到 **“新建”** 边栏选项卡，将 **“启用策略”** 开关设置为 **“开”**，然后选择 **“创建”**。
 
