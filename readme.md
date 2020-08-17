@@ -1,6 +1,6 @@
-﻿# AZ-304： Microsoft Azure 架构师设计
+﻿# AZ-304：Microsoft Azure 架构师设计
 
-- **[实验室的链接（HTML 格式）](https://microsoftlearning.github.io/AZ-304-Microsoft-Azure-Architect-Design/)**
+- **[实验室的链接（HTML 格式）](https://microsoftlearning.github.io/AZ-304ZH-Microsoft-Azure-Architect-Design/)**
 - **[下载最新的学生手册和 AllFiles 内容](https://github.com/MicrosoftLearning/AZ-304-Microsoft-Azure-Architect-Design/archive/master.zip)**
 - **你是 MCT 吗？** - 请查看[适用于 MCT 的 GitHub 用户指南](https://microsoftlearning.github.io/MCT-User-Guide-ZH/)
 - **是否需要手动生成实验说明？** - 可在 [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 存储库中找到说明

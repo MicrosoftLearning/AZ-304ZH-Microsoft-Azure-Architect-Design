@@ -1,6 +1,6 @@
 ﻿---
 lab:
-    title: '13: 实现 Azure 逻辑应用与 Azure 事件网格的集成'
+    title: '13：实现 Azure 逻辑应用与 Azure 事件网格的集成'
     module: '模块 13：设计应用程序架构'
 ---
 
@@ -40,7 +40,7 @@ Azure 事件网格与任何语言或平台都无关。尽管它与 Azure 服务�
   
 Windows Server 管理员凭据
 
--  用户名：**学生**
+-  用户名：**Student**
 
 -  密码：**Pa55w.rd1234**
 
@@ -261,7 +261,7 @@ Windows Server 管理员凭据
 
 1. 在 **“Outlook.com”** 的操作列表中，选择 **“发送电子邮件 (V2)”**。
 
-1. 在 **“Outlook.com”** 窗格中，选择“登录”**。 
+1. 在 **“Outlook.com”** 窗格中，选择 **“登录”**。 
 
 1. 出现提示时，使用你在本实验室中使用的 Microsoft 帐户进行身份验证。 
 
@@ -297,7 +297,7 @@ Windows Server 管理员凭据
 
 1. 在 Azure 门户中，导航到 **“az30304b-logicapp1”** 边栏选项卡，在 **“摘要”** 部分，选择 **“查看触发历史”**。 
 
-1. 在 **“When_a_resource_event_occurs”** 边栏选项卡上，复制“回叫 url [POST]”** 文本框的值。
+1. 在 **“When_a_resource_event_occurs”** 边栏选项卡上，复制 **“回叫 url [POST]”** 文本框的值。
 
 1. 在 Azure 门户中，导航到 **“az30304a-LabRG”** 资源组，然后在垂直菜单中选择 **“事件”**。
 

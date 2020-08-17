@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '6：实现基于Azure SQL 数据库的应用程序'
     module: '模块 6：设计数据库解决方案'
@@ -35,7 +35,7 @@ Adatum 企业体系结构团队还希望评估 Azure SQL 数据库提供的网�
   
 Windows Server 管理员凭据
 
--  用户名：**学生**
+-  用户名：**Student**
 
 -  密码：**Pa55w.rd1234**
 
