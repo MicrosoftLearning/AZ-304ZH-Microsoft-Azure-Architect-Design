@@ -1,7 +1,7 @@
 ﻿
 # AZ-304: GitHub 中的实验室文件名 
  
-**源存储库：[https://github.com/MicrosoftLearning/AZ-304-Microsoft-Azure-Architect-Design/](https://github.com/MicrosoftLearning/AZ-304-Microsoft-Azure-Architect-Design/)**
+**源存储库：[https://github.com/MicrosoftLearning/AZ-304ZH-Microsoft-Azure-Architect-Design/](https://github.com/MicrosoftLearning/AZ-304ZH-Microsoft-Azure-Architect-Design/)**
 
 
 **模块 3 实验**
