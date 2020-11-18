@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '6：实现基于Azure SQL 数据库的应用程序'
     module: '模块 6：设计数据库解决方案'
@@ -78,7 +78,7 @@ Windows Server 管理员凭据
     | 服务器管理员登录： | **sqladmin** |
     | 密码 | **Pa55w.rd1234** |
     | 地点 | 你可以在其中预配 SQL 数据库 的 Azure 区域的名称 |
-    | 允许 Azure 服务访问服务器 | ***选中复选框*** |
+    | 允许 Azure 服务访问服务器 | ***确保清除该复选框*** |
 
 1. 在 **“计算 + 存储”** 标签旁边，选择 **“配置数据库”** 链接。
 
@@ -313,6 +313,12 @@ Windows Server 管理员凭据
 
    ```sh
    az group list --query "[?starts_with(name,'az30303')]".name --output tsv | xargs -L1 bash -c 'az group delete --name $0 --no-wait --yes'
+   ```
+
+1.  在“Cloud Shell”窗格中运行以下命令，以删除 **az30303a1** 文件夹：
+
+   ```sh
+   rm -r ~/az30303a1
    ```
 
 1. 关闭“Cloud Shell”窗格。
