@@ -64,7 +64,7 @@ Windows Server 管理员凭据
 
 #### 任务 1：识别 Azure VM 部署的可用 DNS 名称
 
-1. 在实验室计算机上，启动 Web 浏览器，导航至“Azure 门户”[](https://portal.azure.com)，然后通过提供要在本实验中使用的订阅中的所有者角色的用户帐户凭据来登录。
+1. 在实验室计算机上，启动 Web 浏览器，导航至 [Azure 门户](https://portal.azure.com)，然后通过提供要在本实验中使用的订阅中的所有者角色的用户帐户凭据来登录。
 
 1. 在 Azure 门户中，通过直接选择搜索文本框右侧的工具栏图标打开 **“Cloud Shell”** 窗格。
 
