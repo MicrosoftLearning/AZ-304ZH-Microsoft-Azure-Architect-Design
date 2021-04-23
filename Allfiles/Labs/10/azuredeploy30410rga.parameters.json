@@ -24,25 +24,25 @@
       "value": "[resourceGroup().location]"
     },
     "virtualMachineName": {
-      "value": "az30310a-vm1"
+      "value": "az30410a-vm1"
     },
     "virtualNetworkName": {
-      "value": "az30310a-vnet"
+      "value": "az30410a-vnet"
     },
     "virtualNetworkAddressRange": {
       "value": "10.10.0.0/16"
     },
     "loadBalancerFrontEndIPName": {
-      "value": "az30310a-lbfe"
+      "value": "az30410a-lbfe"
     },
     "backendAddressPoolName": {
-      "value": "az30310a-lbbe"
+      "value": "az30410a-lbbe"
     },
     "inboundNatRulesName": {
-      "value": "az30310a-rdprule"
+      "value": "az30410a-rdprule"
     },
     "networkInterfaceName": {
-      "value": "az30310a-nic"
+      "value": "az30410a-nic"
     },
     "privateIPAddress": {
       "value": "10.10.0.4"
@@ -54,13 +54,13 @@
       "value": "10.10.0.0/24"
     },
     "publicIPAddressName": {
-      "value": "az30310a-pip"
+      "value": "az30410a-pip"
     },
     "availabilitySetName": {
-      "value": "az30310a-avset"
+      "value": "az30410a-avset"
     },
     "loadBalancerName": {
-      "value": "az30310a-lb"
+      "value": "az30410a-lb"
     }
   }
 }
