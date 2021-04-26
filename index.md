@@ -6,7 +6,7 @@ layout: home
 
 # 内容目录
 
-实验室所需文件可以[在此下载](https://github.com/MicrosoftLearning/AZ-304-Microsoft-Azure-Architect-Design/archive/master.zip)
+实验室所需文件可以[在此下载](https://github.com/MicrosoftLearning/AZ-304ZH-Microsoft-Azure-Architect-Design/archive/master.zip)
 
 以下列出了每个实验室练习的超链接。
 
