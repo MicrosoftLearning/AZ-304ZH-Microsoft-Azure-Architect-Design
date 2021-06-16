@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '3：使用 Azure Migrate 将 Hyper-V VM 迁移到 Azure'
     module: '模块 3：迁移设计'
